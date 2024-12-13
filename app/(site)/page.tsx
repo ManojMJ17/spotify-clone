@@ -19,7 +19,7 @@ export default async function Home() {
 						font-semibold
 					"
 					>
-						Welcome Back
+						Welcome Back MJ
 					</h1>
 					<div
 						className="
