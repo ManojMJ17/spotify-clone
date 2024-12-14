@@ -34,8 +34,8 @@ const Header: React.FC<HeaderProps> = ({ children, classname }) => {
 
 		if (error) {
 			toast.error(error.message);
-		}else{
-			toast.success('Logged out!')
+		} else {
+			toast.success("Logged out!");
 		}
 	};
 	return (
