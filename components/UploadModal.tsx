@@ -79,6 +79,8 @@ const UploadModal = () => {
 				setIsLoading(false);
 				return toast.error("Failed image upload");
 			}
+			// console.log("User ID being used:", user.id);
+
 
 			const { error: supabaseError } = await supabaseClient
 				.from("songs")
@@ -89,6 +91,7 @@ const UploadModal = () => {
 					image_path: imageData.path,
 					song_path: songData.path,
 				});
+			console.log("User ID being used:", user.id);
 
 			if (supabaseError) {
 				setIsLoading(false);

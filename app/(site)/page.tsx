@@ -22,9 +22,12 @@ export default async function Home() {
 						>
 							Welcome Back
 						</h1>
-						<div className="flex-col opacity-30">
-							<p className="">manojkumar@gmail.com</p>
-							<p>123456</p>
+						<div className="flex gap-2 opacity-30">
+							<p>Demo:</p>
+							<div>
+								<p className="">manojkumar@gmail.com</p>
+								<p>123456</p>
+							</div>
 						</div>
 					</div>
 					<div
